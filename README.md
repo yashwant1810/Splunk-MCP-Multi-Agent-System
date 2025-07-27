@@ -49,7 +49,7 @@ This project requires the `splunk-mcp-server2` to be running separately. This is
 
 ## Prerequisites
 
-- Python 3.8+
+- Python 3.12+
 - Splunk Enterprise or Splunk Cloud instance
 - Access to Splunk REST API
 - Virtual environment (recommended)
@@ -58,8 +58,8 @@ This project requires the `splunk-mcp-server2` to be running separately. This is
 
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
-   cd SPLUNK_MCP
+   git clone https://github.com/yashwant1810/Splunk-MCP-Multi-Agent-System.git
+   cd Splunk-MCP-Multi-Agent-System
    ```
 
 2. Create and activate a virtual environment:
@@ -104,15 +104,9 @@ This project requires the `splunk-mcp-server2` to be running separately. This is
    pip install -r requirements.txt
    ```
 
-7. Start the MCP server:
+7. Return to your project directory:
    ```bash
-   # Follow the startup instructions in the splunk-mcp-server2 documentation
-   # Usually involves running the server script in stdio mode
-   ```
-
-8. Return to your project directory:
-   ```bash
-   cd ../../SPLUNK_MCP
+   cd ../../Splunk-MCP-Multi-Agent-System
    ```
 
 ## Configuration
