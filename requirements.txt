@@ -1,0 +1,22 @@
+# Core dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+
+# CrewAI and AI framework
+crewai>=0.22.0
+
+# Model Context Protocol (MCP)
+mcp>=1.0.0
+
+# Data validation and settings management
+pydantic>=2.0.0
+
+# Async support (usually included with Python 3.7+, but explicit for clarity)
+asyncio-mqtt>=0.11.0
+
+# subprocess, os, json, re, time, html, sys, asyncio, contextlib, typing
+
+# Development dependencies (optional)
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
